@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes de Control</title>
+    <!-- # Bootstrap Style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- # CSS -->
+    <link rel="stylesheet" href="../styles/automatizacion.css">
+</head>
+<body>
+    <div>
+        <header class="banner">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a id="Title2" class="navbar-brand" href="index.html">Sistemas de Control y Automatización</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="Title">
+                        <h1>Componentes de Control</h1>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Regístrate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">¿Quiénes somos?</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <div id="div-principal">
+                <ul id="Principal" class="list-group">
+                    <li>
+                        <h3>Temas</h3>
+                        <ul id="sub-temas" class="list-group">
+                            <li class="list-group-item">Sensores</li>
+                            <li class="list-group-item">Actuadores</li>
+                            <li class="list-group-item">Controladores</li>
+                            <li class="list-group-item">Ventajas y Desventajas</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p id="texto">
+                            <h3 id="subtitulo1">Sensores</h3>
+                            <p id="text1">Los sensores son dispositivos que detectan cambios en el entorno, como temperatura, presión o posición, y los convierten en señales eléctricas para que el sistema de control las procese. Por ejemplo, los sensores de temperatura permiten controlar el sistema de calefacción en un edificio, ajustando la temperatura según sea necesario.</p>
+                            <br>
+                            <h3 id="subtitulo2">Actuadores</h3>
+                            <p id="text2">Los actuadores convierten señales eléctricas en movimiento o fuerza mecánica, permitiendo la acción física en un sistema. Estos componentes son esenciales para mover o ajustar piezas en un proceso automatizado. Un ejemplo común son los motores eléctricos que permiten el movimiento de piezas en una línea de ensamblaje.</p>
+                            <br>
+                            <h3 id="subtitulo3">Controladores</h3>
+                            <p id="text3">Los controladores son la 'mente' del sistema de control, ya que procesan la información recibida de los sensores y envían comandos a los actuadores. Los controladores modernos integran algoritmos avanzados y permiten la automatización inteligente en procesos industriales, adaptándose a las variaciones en el entorno y optimizando la eficiencia del sistema.</p>
+                            <br><br>
+                            <h4>Ejemplo en la industria de la manufactura:</h4>
+                            <div id="video-principal" class="ratio ratio-16x9">
+                                <video controls>
+                                    <source src="/imagenes/Automatizacion de procesos de manufactura industrial.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <br>
+                            <p id="ventajas">
+                                <ul id="Principal" class="list-group">
+                                    <li id="lista-ventajas">
+                                        <h2 id="ven-des">VENTAJAS</h2>
+                                        <p class="list-group-item list-group-item-action"><b>Monitoreo Preciso:</b> Los sensores ofrecen datos en tiempo real, permitiendo ajustes inmediatos.</p>
+                                        <p class="list-group-item list-group-item-action"><b>Automatización Completa:</b> Los actuadores y controladores facilitan procesos que no requieren intervención humana constante.</p>
+                                        <p class="list-group-item list-group-item-action"><b>Aumento de la Seguridad:</b> La automatización minimiza riesgos de accidentes al reducir la intervención humana en tareas peligrosas.</p>
+                                    </li>
+                                    <li id="lista-desventajas">
+                                        <h2 id="ven-des">DESVENTAJAS</h2>
+                                        <p class="list-group-item list-group-item-action"><b>Costos de Implementación:</b> Los componentes de control avanzados requieren inversión inicial alta.</p>
+                                        <p class="list-group-item list-group-item-action"><b>Dependencia Tecnológica:</b> El sistema puede fallar ante problemas técnicos, afectando la producción.</p>
+                                        <p class="list-group-item list-group-item-action"><b>Complejidad de Mantenimiento:</b> Requiere personal especializado para su mantenimiento y reparación.</p>
+                                    </li>
+                                </ul>
+                            </p>
+                        </p>
+                    </li>
+                    <li id="fotos" class="list-group-item">
+                        <p>
+                            <b>Un Sensor</b>
+                            <img class="img-small"  src="/imagenes/seensores.jpg" alt="Sensor de temperatura">
+                        </p>
+                        <br>
+                        <p>
+                            <b>Un Actuador</b>
+                            <img class="img-small"   src="/imagenes/actuador.png" alt="Actuador en movimiento">
+                        </p>
+                        <br>
+                        <p>
+                            <b>Un Controlador</b>
+                            <img class="img-small"   src="/imagenes/controladoress.jpg" alt="Controlador en industria">
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer id="footer" class="bg-dark text-white text-center py-3 mt-5">
+            <p>&copy; 2024 - Autor: Pascual Bravo - Todos los derechos reservados</p>
+        </footer>
+    </div>
+    <!-- # Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

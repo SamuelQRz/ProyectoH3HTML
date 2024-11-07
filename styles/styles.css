@@ -1,0 +1,44 @@
+/* Banner con imagen */
+.banner {
+    background-image: url('../imagenes/Sistemas-de-inspeccion-y-control-de-la-calidad-automatizados.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+/* Estilos para el texto del banner */
+.banner-text {
+    color: #080707;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilos para el pie de página */
+footer {
+    margin-top: 50px;
+}
+
+/* Estilos para el menú lateral */
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+

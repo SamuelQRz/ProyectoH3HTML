@@ -1,0 +1,18 @@
+/* Banner estilo */
+.banner {
+    background-image: url('../imagenes/Sistemas-de-inspeccion-y-control-de-la-calidad-automatizados.jpg'); /* Reemplaza con tu URL */
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.banner-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: white;
+}
+
+/* Tamaño de las cajas de texto */
+.input-small {
+    max-width: 300px;
+    margin: auto;
+}
