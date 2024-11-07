@@ -94,7 +94,7 @@ video{
 
 /* Banner con imagen */
 .banner {
-  background-image: url('/imagenes/Sistemas-de-inspeccion-y-control-de-la-calidad-automatizados.jpg');
+  background-image: url('../imagenes/Sistemas-de-inspeccion-y-control-de-la-calidad-automatizados.jpg');
   background-size: cover;
   background-position: center;
   padding: 100px 0;
